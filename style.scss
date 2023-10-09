@@ -1,0 +1,132 @@
+$h1-color:#08B8CD;
+$font-cinzel: 'Cinzel', serif;
+$font-josefin-sans: 'Josefin Sans', sans-serif;
+$font-lumanosimo: 'Lumanosimo', cursive;
+$font-open-sans: 'Open Sans', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-satisfy: 'Satisfy', cursive;
+
+body{
+    font-family: $font-josefin-sans;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: $h1-color; /* Set the color to red (replace with your desired color) */
+    font-size: 14px !important; 
+  }
+  
+.name{
+    font-family:$font-josefin-sans;
+    border-bottom: unset!important;
+    font-size: xx-large;
+}
+.position{
+    color:$h1-color;
+
+    font-size: 20px;
+}
+// .details ul li{
+//     list-style: none;
+//     padding: 0 10px;
+//     display: inline-table;
+// }
+ h1{
+    border-bottom: 2px solid rgb(51, 50, 50)!important;
+    text-transform:uppercase;
+    font-size: 1.7rem;
+    font-family: $font-cinzel;
+}
+.hobbies ul li,.certifications ul li{
+    font-weight: 500;
+}
+li{
+    list-style: none;
+
+}
+.certifications ul li span{
+    &:nth-child(even){
+        color: #cd5708;
+        font-size: small;
+        display: block;
+        margin-left: 80px;
+    }
+}
+.fa-solid{
+    color: $h1-color;
+}
+.fa-star-of-life{
+    font-size: 10px;
+
+}
+.experience {
+ h2{
+    padding-left: 20px;
+    color: $h1-color;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+ }
+ p{
+    font-size: 1.3rem;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+ }
+ span{
+    padding-left: 30px;
+
+    font-size: .8rem;
+    font-family: $font-roboto;
+ }
+ .para{
+    font-size: 1rem;
+
+ }
+}
+.education{
+    h2{
+        color: $h1-color;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+     }
+     p{
+        font-size: .9rem;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        padding-left: 20px;
+     }
+     span{
+        font-size: .7rem;
+        font-family: $font-roboto;
+        padding-left: 30px;
+
+     }
+     ul{
+        padding-left: 0;
+     }
+     li{
+        margin-bottom: 17px;
+     }  
+}
+.projects{
+    ul{
+        padding-left: 0;
+    }
+    p {
+        margin-left: 60px;
+        font-size: .9rem;
+    }
+
+    li{
+        font-size: .9rem;
+    }
+    .row{
+        padding-left: 30px;
+    }
+}
